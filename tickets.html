@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tickets - IT Support</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar">
+  <div class="nav-container">
+    <h1 class="logo">IT Support</h1>
+
+    <ul class="nav-menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="portofolio.html">Portofolio</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="tickets.html" class="active">Tickets</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <h2>Daftar Tiket Saya</h2>
+  <p>
+    Berikut adalah tiket yang telah Anda kirim
+    beserta status dan respon dari teknisi.
+  </p>
+</section>
+
+<div style="text-align:center; margin-bottom:24px;">
+  <button onclick="deleteSelectedTickets()">
+    Hapus Tiket Terpilih
+  </button>
+</div>
+
+<!-- ===== LIST TIKET ===== -->
+<section>
+  <div class="container">
+    <div id="ticketList" class="features">
+      <!-- Tiket akan dimuat oleh JavaScript -->
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <p>© 2025 IT Support & Maintenance</p>
+</footer>
+
+<script src="js/script.js" defer></script>
+</body>
+</html>
