@@ -16,8 +16,9 @@
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About</a></li>
       <li><a href="services.html">Services</a></li>
-      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="portofolio.html">Portofolio</a></li>
       <li><a href="contact.html">Contact</a></li>
+      <li><a href="tickets.html">Tickets</a></li>
     </ul>
   </div>
 </nav>
@@ -25,13 +26,31 @@
 <section class="hero">
   <h2>Hubungi Kami</h2>
 
-  <form onsubmit="submitTicket(); return false;">
-    <input type="text" placeholder="Nama" required><br><br>
-    <input type="email" placeholder="Email" required><br><br>
-    <textarea placeholder="Deskripsi Masalah" required></textarea><br><br>
-    <button type="submit">Kirim Tiket</button>
-  </form>
+<form onsubmit="submitTicket(); return false;">
+<select id="service" required>
+  <option value="" disabled selected>-- Pilih Jenis Layanan --</option>
+  <option value="IT Support">IT Support</option>
+  <option value="System Maintenance">System Maintenance</option>
+  <option value="Network Setup">Network Setup</option>
+  <option value="IT Consultation">IT Consultation</option>
+</select>
+  <br><br>
+  <input type="text" placeholder="Nama" required><br><br>
+  <input type="email" placeholder="Email" required><br><br>
+  <textarea placeholder="Deskripsi Masalah" required></textarea><br><br>
+  <button type="submit">Kirim Tickets</button>
+</form>
+
 </section>
+
+
+
+<div style="margin-top:40px; text-align:center;">
+  <p>Email: support@itsupport.id</p>
+  <p>WhatsApp: 08xxxxxxxxxx</p>
+  <p>Jam Operasional: Senin – Jumat, 09.00 – 17.00</p>
+</div>
+
 
 <footer>
   <p>© 2025 IT Support & Maintenance</p>
