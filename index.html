@@ -3,71 +3,130 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About</title>
+  <title>IT Support & Maintenance</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
+<!-- ===== NAVBAR ===== -->
 <nav class="navbar">
   <div class="nav-container">
     <h1 class="logo">IT Support</h1>
 
     <ul class="nav-menu">
-      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html" class="active">Home</a></li>
       <li><a href="about.html">About</a></li>
       <li><a href="services.html">Services</a></li>
-      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="portofolio.html">Portofolio</a></li>
       <li><a href="contact.html">Contact</a></li>
+      <li><a href="tickets.html">Tickets</a></li>
+
     </ul>
   </div>
 </nav>
 
+
+<!-- ===== VIDEO PROFIL ===== -->
 <section class="video-section">
   <h2>Profil Layanan IT Support</h2>
 
-<video
-  id="videoProfile"
-  class="video-local"
-  controls
-  poster="../assets/img/Thumbnail.PNG"
->
-  <source src="../assets/video/about.mp4" type="video/mp4">
-  Browser Anda tidak mendukung video.
-</video>
+  <video
+    id="videoProfile"
+    class="video-local"
+    controls
+    poster="../assets/img/Thumbnail.PNG"
+  >
+    <source src="../assets/videos/about.mp4" type="video/mp4">
+    Browser Anda tidak mendukung video.
+  </video>
 </section>
 
+<!-- ===== KEUNGGULAN UTAMA ===== -->
+<section>
+  <h2>Keunggulan Kami</h2>
 
-<header class="hero">
-  <h2>Solusi IT Support & Maintenance</h2>
-  <p>Membantu sistem IT Anda tetap stabil dan aman.</p>
-</header>
+  <div class="features">
+    <div class="card">
+      <h3>⚡ Respon Cepat</h3>
+      <p>Penanganan masalah IT tanpa menunggu lama.</p>
+    </div>
 
+    <div class="card">
+      <h3>🧑‍💻 Teknisi Profesional</h3>
+      <p>Ditangani oleh tenaga berpengalaman dan terlatih.</p>
+    </div>
 
-
-
-<section class="features">
-  <div class="card">Respon Cepat</div>
-  <div class="card">Teknisi Profesional</div>
-  <div class="card">Layanan Terpercaya</div>
+    <div class="card">
+      <h3>🔒 Sistem Aman</h3>
+      <p>Keamanan data dan sistem menjadi prioritas utama.</p>
+    </div>
+  </div>
 </section>
 
+<!-- ===== RINGKASAN LAYANAN ===== -->
 <section class="about-preview">
-  <h2>Kenapa Memilih Kami?</h2>
+  <h2>Layanan IT Support</h2>
   <p>
     Kami menyediakan layanan IT Support & Maintenance
-    dengan fokus pada kecepatan respon, keamanan sistem,
-    dan kestabilan operasional.
+    untuk kebutuhan individu, bisnis, maupun institusi,
+    mulai dari perawatan sistem hingga konsultasi IT.
   </p>
+
+  <div style="margin-top:24px; text-align:center;">
+    <a href="services.html">
+      <button>Lihat Detail Layanan</button>
+    </a>
+  </div>
 </section>
 
-<div class="spacer"></div>
 
+<!-- ===== VISI & MISI ===== -->
+<section class="about-preview">
+  <h2>Visi & Misi</h2>
+
+  <div class="visi-misi-container">
+    <!-- VISI -->
+    <div class="visi-box">
+      <h3>Visi</h3>
+      <p>
+        Menjadi mitra IT Support & Maintenance yang profesional,
+        terpercaya, dan berorientasi pada solusi jangka panjang
+        dalam mendukung kebutuhan teknologi informasi.
+      </p>
+    </div>
+
+    <!-- MISI -->
+    <div class="misi-box">
+      <h3>Misi</h3>
+      <ul>
+        <li>Memberikan layanan IT Support yang cepat, tepat, dan responsif</li>
+        <li>Menjaga keamanan serta kestabilan sistem dan data klien</li>
+        <li>Menyediakan solusi IT yang efisien dan berkelanjutan</li>
+        <li>Mendukung produktivitas klien melalui teknologi yang optimal</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+<!-- ===== CTA AKHIR ===== -->
+<section class="hero">
+  <h2>Butuh Bantuan IT?</h2>
+  <p>
+    Jangan biarkan masalah IT
+    menghambat produktivitas Anda.
+  </p>
+  <a href="contact.html">
+    <button style="margin-top:20px;">Hubungi Kami</button>
+  </a>
+</section>
+
+<!-- ===== FOOTER ===== -->
 <footer>
   <p>© 2025 IT Support & Maintenance</p>
 </footer>
 
-<script src="../js/script.js"></script>
+<script src="js/script.js" defer></script>
 </body>
 </html>
-
